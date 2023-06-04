@@ -33,7 +33,7 @@ with gr.Blocks() as demo:
             json.dump(savedata, f, ensure_ascii=False)    
 
     load_preset()
-    load_file()
+    #load_file()
 
     api_tb=gr.Textbox(savedata.get("key",""))
     #到時候記得把api改沒了
